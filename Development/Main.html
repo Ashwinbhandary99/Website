@@ -1,0 +1,72 @@
+
+<!DOCTYPE html> 		<!--Declaration of the document to instruct the browser to work accordingly-->
+<html>
+	<head> 				<!--Contetnt to be added in the head section of the webpage-->
+		<title> My Website</title>    <!-- Giving title name to the page-->
+		<meta name="description" content="www.my website.com. A first webpage" /><!-- additional information about the webpage using meta tags-->
+		<meta name="keywords" content="HTML,CSS,JS" />
+		<meta name="Author" content="Ashwin Chandra Bhandary />
+		<meta http-equiv="refresh" content="2" />   <!-- auto refreshment of the webpage after each 2 second-->
+		
+		<link rel="stylesheet" type="text/css" href="Style.css"> <!-- Linking the external css name style to the home html-->
+	</head> <!-- Closing of head tag-->
+	<body> <!-- main content that wil be visible in the webpage-->
+		<div id="container">   <!-- Unique id named container-->
+			<div id="header">
+				<h1> My Website </h1>  		<!-- Heading of the webpage-->
+				
+			</div>
+			<div id="content">
+			
+				<div id="nav" >  <!-- Setting a common class named navv-->
+					<table style="margin-left:300;">  <!-- Creating a table along with internal css-->
+						<tr>
+					
+							<th> <a class="selected"href="main.html">Home</a></th>
+							<th> <a href="Research.html">Research</a></th>
+							<th> <a href="contact.html">Contact</a></th>
+							<th> <a href="Portfolio.html">CV</a></th>
+							<th> <a href="blog.html">Blog</a></th>
+							
+						</tr>
+						
+					</table>
+					
+					
+				</div>
+
+				<div id="main">
+					<h2>Thank You for Visiting</h2>        <!-- Second heading present in the webpage-->
+					<p> Welcome to my website </p>   <!-- p tag enables to display a paragraph in webpage--> 
+					<p> 
+					<i>This is the task of my coursework and the decorations and all the style present in the page and the linked pages are all my hardwork and dedication .</i>
+					</p>
+					<p> As you can see there is the main heading, the navigation bar with the styling and the background picture and the title stated as  my website and down below is my footer and the text present is the content where the different items are filled up</p>
+					<br>
+					<p>There is audio and a time that changes dynamically. I love doing such programming and designing. I have gained a lot knowledge by doing this project. </p> 
+					<audio controls> <source src="Lynyrd Skynyrd - Simple Man.mp3" type="audio/mpeg"> </audio>
+
+					
+				</div>
+				
+			</div>
+			<div id="footer"> <!-- Setting the footer of the webpage-->
+			
+				Copyright &copy; 2018 - All Rights Reserved
+				<p id="date"></p>
+				<script>		//Giving a dynamic content
+					function display_date() {
+					document.getElementById('date').innerHTML = Date();
+					setTimeout(display_date,1000);
+					}
+					display_date();				
+				</script>
+				
+				<div id="Footer2"><p> Designed by: Ashwin Chandra Bhandary </p> </div> 
+			</div>
+		</div>
+		
+
+	</body>  <!--closing tag for the body-->
+
+</html>   <!-- closing tag of html file-->

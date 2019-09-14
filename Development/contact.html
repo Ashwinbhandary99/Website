@@ -1,0 +1,173 @@
+<!DOCTYPE html>         
+<html>
+	<head>         <!--Content to be added in the head section of the webpage-->
+		<title> Contact </title>
+		<meta name="description" content="www.my website.com. A first webpage" />
+		<meta name="keywords" content="HTML,CSS,JS" />
+		<meta name="Author" content="Ashwin Chandra Bhandary />
+		<meta http-equiv="refresh" content="2" />
+		<style>                       <!--Internal css to the different tags and ids-->
+		body{                            
+			background-color:none;
+			background-image: url("pink.jpg");
+			background-position:right top;
+			background-size:cover;
+			background-attachment:scroll;
+		}
+			
+			#nav{
+	                               <!-- setting the style of the id nav internally-->
+			color: white;
+		
+			background-color:hsla(9,100%,64%,0.2);
+			}
+
+			#nav th {
+				padding: 10px;
+				font-size: 20px;
+				list-style-type:none;
+				margin-left:234px;
+				float:center;
+	
+			}
+			#nav th :hover{
+				background-color:yellow;
+				transition:0.8s all;
+	
+	
+			}
+		a{
+			text-decoration:none;
+			color:white;
+			text-weight:20px;
+			text-align:centre;
+	
+	
+		}
+
+
+		#container{
+			background-color:none;
+			width: 900px;
+			margin-left: auto;
+			margin-right: auto;
+	
+	
+	
+	
+		}
+	
+	
+	
+
+		</style>
+		
+	</head>
+	<body style="background-image:url(pink.jpg);background-size:cover;"> 
+		<nav>
+			<style>
+			nav th:hover{
+				background-color:yellow;
+				transition:0.8s all;
+	
+	
+			}
+			</style>
+			<div id="container">
+			<div id="header">
+				<h1> Contact</h1> <style> #header{color:white;margin-left:380px; font-weight:bold; font-size:20px; } </style>
+				
+			</div>
+			<div id="content">
+			
+				<div id="nav" class="navv">
+					<table style="margin-left:300;">  <!-- Creation of table with the inline css-->
+						<tr>
+					
+							<th> <a class="selected"href="main.html">Home</a></th> <!-- inserting hyper links in the webpage-->
+							<th> <a href="Research.html">Research</a></th>
+							<th> <a href="contact.html">Contact</a></th>     
+							<th> <a href="Portfolio.html">CV</a></th>
+							<th> <a href="blog.html">Blog</a></th>
+							
+						</tr>
+						
+					</table>
+					
+					
+				</div>
+
+
+		<header>
+			<h1 style="font-family:Courier New; color:white;text-align:center;">Survey Sector</h1> <!-- setting the heading with the inline css-->
+		</header>
+		<div class="container">
+		<style>
+		.container{          <!--Internal css of the class container-->
+			padding-top:20px;
+			background-color:transparent;
+			width:500px;
+			margin-left: auto;
+			margin-right: auto;
+			color-white;
+			
+			}
+			</style>
+			
+	
+	
+	
+	
+	
+		
+			<p class="text"> Feedback Form </p>
+			<style>
+			.text{
+				color:white;
+			
+			}
+			</style>
+			<form name="messageForm" onsubmit="validateForm()">           <!-- Creating a form section for the user to input-->
+				<p class="text">First name: <input type="text" name="firstname"> </p>
+				<p class="text">Last name:<input type="text" name="lastname"> </p>
+				<p class="text"> Gender: <input type="radio" name="gender" value="male" checked> Male
+				<input type="radio" name="gender" value="female">Female  <input type="radio" name="gender" value="Other"> Other</p>
+				<p class="text">Message: <br><textarea name="message" rows="10" cols="30" placeholder="Enter Message"></textarea></p>
+				<input type="submit" value="Send">
+			</form>
+			
+
+  <script>
+      function validateForm() {                   //Java script for interactive webpage
+        var fname = document.forms["messageForm"]["firstname"].value;
+        var lname = document.forms["messageForm"]["lastname"].value;
+        var gender = document.forms["messageForm"]["gender"].value;
+        var message = document.forms["messageForm"]["message"].value;
+
+        if (fname == "" || lname == "" || message == ""){
+          alert("Empty fields found. Please fill the form.");
+        }
+        else {
+          alert("Thank you for the feedback.");
+        }
+      }
+    </script>
+		</div>
+		<footer>
+			<table width="100%">
+				<tr>
+					<th>
+					<div style="color:white;font-family:Courier New;font-size:20px;padding:10px;">  <!--Inline css of the footer of the webpage-->
+						<p>Copyright &copy ; All Rights Reserved</p>
+						<p>Designed by: Ashwin Chandra Bhandary</p>
+					<div>
+					</th>
+				</tr>
+			</table>
+		</footer>  <!-- Footer of the webpage-->
+	</body>
+</html>
+
+	
+	
+	

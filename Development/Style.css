@@ -1,0 +1,113 @@
+body{                   /*setting the decoration of the body present in the webpage*/
+
+	background-color:none;
+	background-size:cover;
+	background-attachment:fixed;
+	background-color:none;
+	background-image:url("bg.jpg"); 
+	background-attachment: fixed;
+	
+	
+	
+}
+
+	
+a{
+	text-decoration:none;
+	color:black;
+	text-weight:20px;
+	text-align:centre;
+	
+	
+	}
+
+
+#container{  /*setting the style of the id container in webpage*/
+
+	background-color:none;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	
+	
+	}
+	
+	
+	
+
+h2,h3,p{         /* giving style of the multiple tags using DRY principle*/
+	color:black;
+	font-style:italic;
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight:bold;
+}
+
+
+
+
+#header{ /*setting the style of the id header*/
+	background-color :none;
+	color:tomato;
+	text-align:center;
+	padding: 10px,10px,20px,10px;
+	margin-left:198;
+	font-weight:bold;
+}
+
+#content{
+	padding:12px;
+	margin-left:155;
+}
+
+
+#nav{ /*settng style of the id nav*/
+	 
+	color: white;
+		
+	background-color:hsla(9,100%,64%,0.2);
+	
+}
+
+#nav th { /*giving style to the table header of the id nav*/
+	padding: 10px;
+	font-size: 20px;
+	list-style-type:none;
+	margin-left:234px;
+	float:center;
+	
+}
+#nav th :hover{   /*enabling the feature of hovering in the id nav in the webpage*/
+	background-color:yellow;
+	transition:0.8s all;
+	
+	
+}
+
+
+	
+	
+	
+	
+
+
+
+
+#main{   /*setting the style of the id main*/
+	width: 1000px;
+
+	}
+	
+	
+#footer{     /*setting the style of the id footer in webpage8*/
+	clear: both;
+	padding:10px;
+	color:red;
+	text-align: right;
+	background-color:none;
+	font-size:20px;
+}
+<?xml-stylesheet type="text/css" href ="catalog_17031257.css"?>
+<!DOCTYPE Company SYSTEM "catalog_17031257.dtd">
